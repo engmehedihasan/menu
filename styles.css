@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background: black;
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    text-decoration:none;
+    padding: 25px;
+    font-size: 38px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.navbar ul li{
+    padding: 25px;
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.navbar ul li a{
+    text-decoration:none;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.navbar ul li a:hover{
+    color: blueviolet;
+}
